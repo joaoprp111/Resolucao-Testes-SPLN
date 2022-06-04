@@ -14,5 +14,5 @@ def count_char_occur(sentence):
     return occurrences
 
 if __name__ == "__main__":
-    r = count_char_occur('Teste de SPLN! Estou preparado???!')
+    r = count_char_occur('Teste de SPLN!!!')
     print(r)
