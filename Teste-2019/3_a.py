@@ -7,8 +7,8 @@ def fix_sent(sent):
 def fix_sent_start(tmin):
     nlp = spacy.load('en_core_web_md')
     doc = nlp(tmin)
-    sents = list(doc.sents)
-    fixed_sents = [fix_sent(str(s)) for s in sents]
+    sents = doc.sents
+    fixed_sents = [fix_sent(s.text) for s in sents]
     fixed_text = ' '.join(fixed_sents)
 
     return fixed_text
