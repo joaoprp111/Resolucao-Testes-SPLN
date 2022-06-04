@@ -1,6 +1,12 @@
 import spacy
 from sys import argv
 
+'''
+O dicionário retornado contém todas as palavras maiúsculas e minúsculas do texto grande
+Nas maiúsculas a chave de acesso é essa palavra mas em minúscula
+Desta forma, quando for percorrido o texto das palavras minúsculas, pode ser encontrada a correspondente palavra maiúscula na estrutura,
+utilizando para tal a chave de acesso para fazer a substituição'''
+
 def lower_and_upper_words(tgrande):
     occurrences = dict()
     occurrences.setdefault('upper',dict())
