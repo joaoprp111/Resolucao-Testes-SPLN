@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="version 1.1">
+<header>... </header>
+<body>
+    <tu>
+        <seg xml:lang="PT">O gato está a dormir.</seg>
+        <seg xml:lang="ES">El gato esta durmiendo.</seg>
+    </tu>
+    <tu>
+        <seg xml:lang="PT">A menina está a sorrir.</seg>
+        <seg xml:lang="ES">La niña está sonriendo.</seg>
+    </tu>
+    <tu>
+        <seg xml:lang="PT">Eu gosto mesmo de ti.</seg>
+        <seg xml:lang="ES">Realmente me gustas.</seg>
+    </tu>
+</body>
